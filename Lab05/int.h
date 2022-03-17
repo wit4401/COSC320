@@ -33,7 +33,7 @@ class integer
 		}
 		
 		// output object in format intValue (count)
-		friend ostream& operator<< (ostream& ostr, const integer& obj){
+		friend std::ostream& operator<< (std::ostream& ostr, const integer& obj){
 			ostr<<obj.intValue<<"("<<obj.count<<")";
 			return ostr;
 		}

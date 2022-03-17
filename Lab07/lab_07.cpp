@@ -1,7 +1,6 @@
 #include<iostream>
 #include<fstream>
 #include<stdio.h>
-#include<utility>
 #include<locale>
 #include"d_hash.h"
 #include"d_hashf.h"

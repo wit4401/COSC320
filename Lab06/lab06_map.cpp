@@ -8,7 +8,7 @@ int main(){
 	std::map<std::string,std::string> m;
 	m.insert(std::pair<std::string,std::string>("Ohio","Columbus"));
 	m.insert(std::pair<std::string,std::string>("Nevada","Las Vegas"));
-	m.insert(std::pair<std::string,std::string>("California","Los Angeles"));
+	m.insert(std::pair<std::string,std::string>("California","Los Angelos"));
 	m.insert(std::pair<std::string,std::string>("Texas","Dallas"));
 	m.insert(std::pair<std::string,std::string>("Maryland","Columbia"));
 	std::string searchState;

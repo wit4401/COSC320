@@ -31,13 +31,15 @@ void deSelsort(any* A,int len){
                 int end=len-i-1;
                 min=i;
                 max=end;
-                for(int j=i+1;j<end;j++){
+                for(int j=i;j<end+1;j++){
                         if(A[j]<A[min])
                         	min=j;
+		}
+		swap(A,i,min);
+		for(int j=i;j<end+1;j++){
 			if(A[j]>A[max])
 				max=j;
 		}
-		swap(A,i,min);
                 swap(A,end,max);
 		if(len<30){
 			printf("Rotation %d:\n",i+1);
