@@ -26,10 +26,7 @@ int main(){
 		else
 			sumFailCom++;
 	}
-	
-	double result=sumFailCom/(RANDOMVALUES-successTotal);
 	printf("\n%d of %d failed searches.\n",sumFailCom,RANDOMVALUES);
 	printf("%d of %d successful searches.\n",successTotal,RANDOMVALUES);
-	printf("Empirical result for worst case: %0.2f\n",result);
 	puts("End of program...");
 }
